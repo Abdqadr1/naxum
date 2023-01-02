@@ -1,0 +1,32 @@
+body{
+    font-family: "Overpass", sans-serif !important;
+    font-size: 15px !important;
+}
+input[type='date']{
+    width: 150px;
+    margin: 0 5p x;
+}
+label{
+    margin: 0 5px;
+}
+
+button{
+    margin: 0 5px;
+}
+.autocom{
+    max-height: 300px;
+    width: 100%;
+    overflow-y: auto;
+    position: absolute;
+    z-index: 10;
+    background: white;
+}
+.autocom li{
+    list-style: none;
+    padding: 5px 10px;
+    cursor: default;
+    width: 100%;
+}
+.autocom li:hover{
+    background: #efefef;
+}
